@@ -1,6 +1,6 @@
 # Layer C — Core 12 Modules (Execution Enhancements)
 
-Layer C now contains all 12 core modules under this directory.
+Layer C contains all 12 core modules under this directory and keeps the same module structure already present in this repository.
 
 ## Core module directories
 
@@ -15,14 +15,9 @@ Layer C now contains all 12 core modules under this directory.
 - `module9_observability/`
 - `module10_data_processing_systems/`
 - `module11_ml_infrastructure/`
-<<<<<<< codex/create-project-directory-for-foundation-layer
 - `module12_system_design_mastery/`
-=======
-- `module12_system_design_mastery/
-Layer C keeps the same 12 module structure already present in this repository and adds a uniform execution standard.
->>>>>>> main
 
-## Mandatory additions for every core artifact
+## Mandatory cross-cutting additions for every core artifact
 
 See: `enhancement_requirements.md`
 
@@ -31,7 +26,9 @@ Each core module artifact should explicitly document:
 1. API layer
 2. Data model
 3. Caching strategy
-4. Cost estimation
-5. Failure modes
-6. Performance targets (p99 latency + throughput)
-7. Evolution strategy
+4. Cost modeling (traffic/QPS, data volume, infra required, cost per request)
+5. Security (authn/authz, secrets, tenant isolation, data access control)
+6. Performance engineering (p50/p99 latency, throughput, bottlenecks)
+7. Failure modes
+8. Evolution strategy
+9. Product thinking (user, critical vs optional, graceful degradation)
