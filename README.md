@@ -90,15 +90,17 @@ python3 layer_c_core_modules/module12_system_design_mastery/portfolio_checker.py
 
 ## Layer C — Core 12 Modules (Enhanced Execution)
 
-The existing 12-module structure remains unchanged, but each module artifact should now explicitly include the following design dimensions:
+The existing 12-module structure remains unchanged, but each module artifact should now explicitly include the following cross-cutting dimensions:
 
 1. API layer
 2. Data model
 3. Caching strategy
-4. Cost estimation
-5. Failure modes
-6. Performance targets (p99 latency and throughput)
-7. Evolution strategy
+4. Cost modeling (traffic/QPS, data volume, infra required, cost per request)
+5. Security (authn/authz, secret management, tenant isolation, data access control)
+6. Performance engineering (p50/p99 latency, throughput, bottlenecks)
+7. Failure modes
+8. Evolution strategy
+9. Product thinking (user, critical vs optional, graceful degradation)
 
 Reference template: `layer_c_core_modules/enhancement_requirements.md`
 
@@ -110,7 +112,6 @@ A new foundational layer is now available at:
 - `layer_c_core_modules/README.md`
 
 It includes modules F1–F5 covering APIs, storage modeling, caching, state management, and system migration.
-<<<<<<< codex/create-project-directory-for-foundation-layer
 
 ## Layer L — AI System Design (Leverage Layer)
 
@@ -119,5 +120,3 @@ A focused add-on layer for AI system design is available at:
 - `layer_l_ai_system_design/README.md`
 
 It includes modules L1–L5 for ML architecture, serving systems, distributed training, retrieval/vector search, and end-to-end AI platform design.
-=======
->>>>>>> main
