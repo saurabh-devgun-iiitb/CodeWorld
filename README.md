@@ -110,6 +110,7 @@ A new foundational layer is now available at:
 - `layer_c_core_modules/README.md`
 
 It includes modules F1–F5 covering APIs, storage modeling, caching, state management, and system migration.
+<<<<<<< codex/create-project-directory-for-foundation-layer
 
 ## Layer L — AI System Design (Leverage Layer)
 
@@ -118,3 +119,5 @@ A focused add-on layer for AI system design is available at:
 - `layer_l_ai_system_design/README.md`
 
 It includes modules L1–L5 for ML architecture, serving systems, distributed training, retrieval/vector search, and end-to-end AI platform design.
+=======
+>>>>>>> main
