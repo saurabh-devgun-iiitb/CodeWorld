@@ -15,7 +15,8 @@ Layer C now contains all 12 core modules under this directory.
 - `module9_observability/`
 - `module10_data_processing_systems/`
 - `module11_ml_infrastructure/`
-- `module12_system_design_mastery/`
+- `module12_system_design_mastery/
+Layer C keeps the same 12 module structure already present in this repository and adds a uniform execution standard.
 
 ## Mandatory additions for every core artifact
 
