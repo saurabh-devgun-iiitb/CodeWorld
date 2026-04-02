@@ -87,3 +87,26 @@ python3 module10_data_processing_systems/analytics_pipeline.py
 python3 module11_ml_infrastructure/ml_inference_platform.py
 python3 module12_system_design_mastery/portfolio_checker.py
 ```
+
+## Layer C — Core 12 Modules (Enhanced Execution)
+
+The existing 12-module structure remains unchanged, but each module artifact should now explicitly include the following design dimensions:
+
+1. API layer
+2. Data model
+3. Caching strategy
+4. Cost estimation
+5. Failure modes
+6. Performance targets (p99 latency and throughput)
+7. Evolution strategy
+
+Reference template: `layer_c_core_modules/enhancement_requirements.md`
+
+## Layer F — Foundation Modules
+
+A new foundational layer is now available at:
+
+- `layer_f_foundation_modules/README.md`
+- `layer_c_core_modules/README.md`
+
+It includes modules F1–F5 covering APIs, storage modeling, caching, state management, and system migration.
